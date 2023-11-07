@@ -7,8 +7,11 @@
     background-color: aliceblue;
     display: flex;
     flex-direction: row-reverse;
+    z-index: 998;
     }
-
+    .navbar-toggler {
+        z-index: 999; /* Puedes ajustar el valor según sea necesario */
+    }
     .hvr-fade {
     display: inline-block;
     vertical-align: middle;
