@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API = "http://localhost:8081/api"
+const API = "https://circuloodontologico.onrender.com/api"
 
 export const contactRequest = async (contact) => {
     try {
