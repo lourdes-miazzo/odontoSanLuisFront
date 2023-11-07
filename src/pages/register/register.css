@@ -1,0 +1,155 @@
+
+
+.backOrg8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.backColor8{
+    max-width: 100%;
+    width: 100vw;
+    background-color: #269989;
+    min-height: 86.2vh;
+}
+
+.backColor8.hasErrors{
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.formOrg8{
+    background-color: #279081;
+    height: 65vh;
+    width: 84vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    box-shadow: 26px 10px 19px 0px #506567;
+    border-radius: 5px;
+    margin-top: 6rem;
+}
+
+.button8{
+    background-color:  #279081;
+    border-radius: 7px;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+    margin-top: 2rem;
+    color: #c9E6E3;
+}
+
+
+input{
+    border-radius: 3px;
+    margin: 5px;
+    border: none;
+    color: #c9E6E3;
+    border-bottom: 1px solid #efefef;
+    outline: none;
+    background-color: #279081;
+}
+
+.regErrors{
+    background-color: red;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 1;
+    padding: 0.3rem;
+    margin: 0.2rem;
+    border-radius: 3px;
+}
+
+.regDBErrors{
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1;
+    padding: 0.5rem;
+    margin: 0.6rem;
+    border-radius: 3px;
+}
+
+.formOrg8.hasErrors{
+    height: auto;
+    transition: height 0.3s ease;
+}
+
+@media (min-width: 768px){
+
+    .backColor8{
+        height: 85vh;
+        max-width: 100%;
+        width: 100vw;
+    }
+    .backColor8.hasErrors{
+        padding-bottom: 3rem;
+    }
+    
+    .formOrg8{
+        height: 55vh;
+        width: 40vw;
+        padding: 3rem;
+        margin-top: 6rem;
+    }
+    
+    .button8{
+        border-radius: 7px;
+        padding-bottom: 0.4rem;
+        padding-top: 0.4rem;
+        margin-top: 2rem;
+    }
+    
+    
+    input{
+        margin: 5px;
+    }
+    
+    .errors{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+  
+}  /* CIERRE MEDIA QUERIE 768 NO BORRAR!   */
+@media (min-width: 1024px){
+
+    .formOrg8{
+        height: 55vh;
+        width: 35vw;
+        padding: 3rem;
+        margin-top: 3rem;
+        
+    }
+    
+    .formOrg8 .hasErrors{
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        height: auto;
+        transition: height 0.5s ease;
+    }
+    
+    .button8{
+        border-radius: 7px;
+        padding-bottom: 0.4rem;
+        padding-top: 0.4rem;
+        margin-top: 2rem;
+    }
+    
+    
+    input{
+        margin: 5px;
+    }
+    
+    .errors{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .respuesta{
+        margin-top: 12rem;
+
+        border-radius: 5px;
+        padding: 0.7rem;
+    }
+}  /* CIERRE MEDIA QUERIE 1024 NO BORRAR!   */

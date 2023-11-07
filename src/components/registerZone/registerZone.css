@@ -1,0 +1,48 @@
+.regP{
+
+    color: whitesmoke;
+    margin: 0.5rem;
+}
+
+.right{
+display: flex;
+flex-direction: row;
+margin-top: 0.5rem;
+}
+.buttonP{
+    color: black;
+    margin-top: 0.6rem;
+}
+#buttonUser{
+    border-color: #345752;
+    background-color:  #345752;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media (min-width: 768px){
+
+    .regP{
+        margin-right: 0.5rem;
+    }
+    
+    .right{
+    margin-top: 0.5rem;
+    }
+}  /* CIERRE MEDIA QUERIE 768 NO BORRAR!   */
+
+
+@media (min-width: 1024px){
+
+    .regP{
+        margin-right: 0.5rem;
+    }
+    
+    .right{
+    margin-top: 0.5rem;
+    }
+
+}  /* CIERRE MEDIA QUERIE 1024 NO BORRAR!   */

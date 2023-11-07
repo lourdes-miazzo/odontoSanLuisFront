@@ -1,0 +1,35 @@
+.backColor3{
+    background-color: #269989;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonError{
+    padding: 0.8rem;
+}
+
+@media (min-width: 768px){
+
+    .backColor3{
+        height: 85vh;
+    }
+    
+    .buttonError{
+        padding: 0.8rem;
+    }
+}  /* CIERRE MEDIA QUERIE 768 NO BORRAR!   */
+
+
+@media (min-width: 1024px){
+
+    .backColor3{
+        height: 85vh;
+    }
+    
+    .buttonError{
+        padding: 0.8rem;
+    }
+}  /* CIERRE MEDIA QUERIE 1024 NO BORRAR!   */

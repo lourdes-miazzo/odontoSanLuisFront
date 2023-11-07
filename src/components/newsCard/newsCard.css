@@ -1,0 +1,154 @@
+.body{
+overflow: auto;
+}
+
+.style{
+    background-color: #269989;
+    border-radius: 6px;
+    padding: 0.3rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.aroundImg{
+    margin-top: 1rem;
+    width: 12rem;
+    height: 15rem;
+    overflow: hidden; 
+    position: relative;
+}
+
+.imgSize{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.titleStyle{
+    color: antiquewhite;
+    font-size: 800;
+    margin-top: 6px;
+    line-height: 1;
+}
+.noDeco{
+    text-decoration: none;
+}
+
+@media (min-width: 360px){
+
+    .aroundImg{
+        margin-top: 1rem;
+        width: 15rem;
+        height: 15rem;
+    }
+}  /* CIERRE MEDIA QUERIE 360 NO BORRAR!   */
+
+@media (min-width: 412px){
+
+    .aroundImg{
+        margin-top: 1rem;
+        width: 17rem;
+        height: 15rem;
+    }
+}  /* CIERRE MEDIA QUERIE 412 NO BORRAR!   */
+
+@media (min-width: 540px){
+
+    .aroundImg{
+        width: 26rem;
+        height: 18rem;
+    }
+    .linkContainer{
+        margin-top: 0.4rem;
+        width: 16rem;
+        height: 4rem;
+        overflow: hidden; 
+        position: relative;
+    }
+ 
+
+}  /* CIERRE MEDIA QUERIE 549 NO BORRAR!   */
+
+
+@media (min-width: 768px){
+
+    .aroundImg{
+        width: 16rem;
+        height: 18rem;
+    }
+    .linkContainer{
+        margin-top: 0.4rem;
+        width: 16rem;
+        height: 4rem;
+        overflow: hidden; 
+        position: relative;
+    }
+    .titleStyle{
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    }
+
+}  /* CIERRE MEDIA QUERIE 768 NO BORRAR!   */
+
+@media (min-width: 912px){
+
+    .aroundImg{
+        width: 20rem;
+        height: 18rem;
+    }
+    .linkContainer{
+        margin-top: 0.4rem;
+        width: 16rem;
+        height: 4rem;
+        overflow: hidden; 
+        position: relative;
+    }
+ 
+
+}  /* CIERRE MEDIA QUERIE 912 NO BORRAR!   */
+
+
+@media (min-width: 1024px){
+
+    .style{
+        padding: 0.3rem;
+        margin-left: 1rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .aroundImg{
+        margin-top: 1rem;
+        width: 20rem;
+        height: 16rem;
+    }
+    
+    .titleStyle{
+        font-size: 800;
+        margin-top: 6px;
+    
+    }
+}  /* CIERRE MEDIA QUERIE 1024 NO BORRAR!   */
+
+@media (min-width: 1280px){
+
+    .aroundImg{
+
+        width: 23rem;
+        height: 16rem;
+    }
+    
+    .titleStyle{
+        font-size: 800;
+        margin-top: 6px;
+    
+    }
+}  /* CIERRE MEDIA QUERIE 1280 NO BORRAR!   */

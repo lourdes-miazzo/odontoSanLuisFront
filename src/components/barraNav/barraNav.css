@@ -1,0 +1,84 @@
+
+.gral{
+    max-width: 100%;
+    width: 100vw;
+    height: 14.8vh;
+    max-height: 14.8vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row-reverse;
+    }
+
+    .hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    }
+    .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    background-color: #269989;
+    color: white;
+    }
+    .navbar-expand-lg .navbar-collapse {
+    background-color: aliceblue;
+    padding-left: 0.5rem;
+    }
+    
+    .icon{
+        width: 7rem;
+        margin-right: 3.4rem;
+
+    }
+
+
+            @media (min-width: 360px) {
+                .icon{
+                    margin-right: 6.5rem;
+                }
+            }
+            @media (min-width: 375px) {
+                .icon{
+                margin-right: 6rem;
+                    }
+            }
+            @media (min-width: 390px) {
+                .icon{
+                margin-right: 7rem;
+                    }
+            }
+            @media (min-width: 540px) {
+                .icon{
+                margin-right: 11rem;
+                    }
+            }
+    
+            @media (min-width: 768px) {
+    
+            .icon{
+                width: 10rem;
+                margin-right: 1rem;
+                }
+            }
+    
+            @media (min-width: 1024px) {
+    
+            .gral{
+                max-width: 100%;
+                width: 100vw;
+                height: 15vh;
+                flex-direction: row;
+            }
+            .icon{
+            width: 10rem;
+            margin-bottom: 3.2rem;
+            }
+            .navLinkOrder{
+                margin-top: 3.4rem;
+            }
+            }

@@ -1,0 +1,19 @@
+.backColor6{
+    background-color: #269989;
+    height: 85vh;
+}
+
+@media (min-width: 768px){
+
+    .backColor6{
+        height: 85vh;
+    }
+}  /* CIERRE MEDIA QUERIE 768 NO BORRAR!   */
+
+
+@media (min-width: 1024px){
+
+    .backColor6{
+        height: 85vh;
+    }
+}  /* CIERRE MEDIA QUERIE 1024 NO BORRAR!   */

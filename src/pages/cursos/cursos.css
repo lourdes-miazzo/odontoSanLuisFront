@@ -1,0 +1,33 @@
+.backColor1{
+    background-color: #269989;
+    max-width: 100vw;
+    max-width: 100%;
+    width: 100vw;
+    overflow: hidden;
+    height: 50vh;
+}
+.regLocation{
+    margin-bottom: 34rem;
+}
+
+@media (min-width: 768px){
+    
+    .backColor1{
+        height: 85vh;
+    }
+    .regLocation{
+        margin-bottom: 34rem;
+    }
+
+}  /* CIERRE MEDIA QUERIE 768 NO BORRAR!   */
+
+
+@media (min-width: 1024px){
+
+    .backColor1{
+        height: 85vh;
+    }
+    .regLocation{
+        margin-bottom: 34rem;
+    }
+}  /* CIERRE MEDIA QUERIE 1024 NO BORRAR!   */

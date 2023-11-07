@@ -1,0 +1,137 @@
+p{
+    color: #c9E6E3
+}
+
+.backOrg5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.backColor5{
+    background-color: #269989;
+    height: 86vh;
+}
+
+.backSuccess{
+    background-color: #269989;
+    height: 86vh;
+}
+.backColor5.hasErrors{
+    height: auto;
+    min-height: 86vh;
+}
+
+.formOrg5{
+    background-color: #279081;
+    height: 40vh;
+    width: 84vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    box-shadow: 26px 10px 19px 0px #506567;
+    border-radius: 5px;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formOrg5.hasErrors{
+    height: auto;
+    margin-top: 5rem;
+}
+
+.button5{
+    background-color:  #279081;
+    border-radius: 7px;
+    margin-top: 2rem;
+    color: #c9E6E3;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+}
+
+
+input{
+    border-radius: 3px;
+    margin: 5px;
+    border: none;
+    color: #c9E6E3;
+    border-bottom: 1px solid #efefef;
+    outline: none;
+    background-color: #279081;
+}
+
+.errors{
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    border-radius: 3px;
+}
+.errorsDB{
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+}
+@media (min-width: 768px){
+
+    p{
+        color: #c9E6E3
+    }
+    .backColor5{
+        height: 85vh;
+    }
+    
+    .formOrg5{
+        width: 40vw;
+        padding: 3rem;
+        margin-top: 9rem;
+    }
+    
+    .button5{
+        margin-top: 2rem;
+        padding-bottom: 0.4rem;
+        padding-top: 0.4rem;
+    }
+    
+    
+    input{
+        margin: 5px;
+    }
+}  /* CIERRE MEDIA QUERIE 768 NO BORRAR!   */
+
+
+@media (min-width: 1024px){
+
+    p{
+        color: #c9E6E3
+    }
+    .backColor5{
+        height: 85vh;
+    }
+    
+    .formOrg5{
+        height: 35vh;
+        width: 30vw;
+        padding: 3rem;
+        margin-top: 12rem;
+    }
+    
+    .button5{
+        margin-top: 2rem;
+        padding-bottom: 0.4rem;
+        padding-top: 0.4rem;
+    }
+    
+    
+    input{
+        margin: 5px;
+    }
+}  /* CIERRE MEDIA QUERIE 1024 NO BORRAR!   */

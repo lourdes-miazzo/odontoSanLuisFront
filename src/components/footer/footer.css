@@ -1,0 +1,138 @@
+.backg{
+    background-color:  #346063;
+    max-width: 100%;
+    width: 100vw;
+    overflow: hidden;
+    height: 33rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.iconoOdonto{
+    width: 10rem;
+}
+
+.vertical{
+    height: 1px; 
+    width: 15vh;
+    background-color: #cbd9da;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: none;
+}
+
+.first{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.third{
+    margin-top: 1.5rem;
+    justify-self: center;
+}
+.title{
+    margin-top: 0.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.infoText{
+    padding: 1rem;
+}
+p{
+    padding: 0.2rem;
+    line-height: 0.3;
+    text-align: center;
+}
+.aroundIcons{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+.icono{
+    width: 6rem;
+    padding: 0.5rem;
+}
+
+
+@media (min-width: 768px){
+.backg{
+    height: 14rem;
+}
+.row-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 18% 18% 32% 32%;
+}
+
+.iconoOdonto{
+    width: 10rem;
+    margin-bottom: 4rem;
+}
+
+.vertical{
+    width: 1px; 
+    height: 12vh;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.second{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.third{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    margin-top: 0.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+p{
+    padding: 0.2rem;
+    line-height: 0.3;
+}
+
+.icono{
+    width: 2.5rem;
+}
+}  /* CIERRE MEDIA QUERIE 768 NO BORRAR!   */
+
+
+@media (min-width: 1024px){
+    
+    .iconoOdonto{
+        width: 13rem;
+    }
+    
+    .title{
+        margin-top: 0.7rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .icono{
+        width: 4rem;
+    }
+}  /* CIERRE MEDIA QUERIE 1024 NO BORRAR!   */
